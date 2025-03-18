@@ -1,0 +1,233 @@
+body {
+    font-family: "Rubik",Arial,sans-serif;
+}
+.navbar {
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.navbar-brand {
+    font-weight: 500;
+}
+.nav-link {
+    color: #333;
+    font-size: 14px;
+}
+.nav-link.active {
+    border-bottom: 2px solid #0d6efd;
+}
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 0;
+    background-image: url('./assets/futuristic_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 500px;
+}
+.banner-text {
+    font-size: 32px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.2;
+    max-width: 650px;
+    padding-right: 30px;
+}
+.vertical-line {
+    width: 2px;
+    height: 180px;
+    background-color: #0e5a81;
+    margin: 0 30px;
+}
+.gartner-logo {
+    max-width: 350px;
+}
+.gartner-logo img {
+    width: 100%;
+}
+.content-section {
+    padding: 60px 0;
+    background-color: white;
+}
+.content-section h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.content-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+.search-icon {
+    color: #666;
+    font-size: 18px;
+}
+.sign-in {
+    font-size: 14px;
+    color: #0d6efd;
+    text-decoration: none;
+}
+.main-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.section-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.contact-btn {
+    background-color: #0000d3;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+}
+.contact-btn i {
+    margin-right: 0.5rem;
+}
+.quote-section {
+    position: relative;
+    padding: 20px 0;
+}
+.quote-border {
+    background-color: #0000d3;
+    width: 8px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.quote-border-left {
+    left: 0;
+}
+.quote-border-right {
+    right: 0;
+}
+.quote-text {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.3;
+    padding: 2rem;
+}
+.quote-author {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 2rem;
+}
+
+
+
+.top-border {
+    border-top: 2px solid #0099cc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-title {
+    color: #003366;
+    font-weight: bold;
+    font-size: 52px;
+    margin-bottom: 60px;
+    /* padding-bottom: 30px; */
+}
+.icon-container {
+    color: #0099cc;
+    font-size: 40px;
+}
+.footer-section-title {
+    color: #003366;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.contact-link {
+    color: #0000EE;
+    text-decoration: none;
+}
+.contact-link:hover {
+    text-decoration: underline;
+}
+.footer-bg {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+.footer-title {
+    color: #003366;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.footer-link {
+    color: #003366;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.footer-link:hover {
+    text-decoration: underline;
+}
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    color: #003366;
+}
+.footer-bottom {
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px;
+}
+.footer-nav {
+    font-size: 12px;
+    color: #666;
+    text-transform: uppercase;
+}
+.footer-nav a {
+    color: #666;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-card {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 0;
+    margin: 5px auto;
+    padding: 20px;
+}
+.contact-card-title {
+    color: #0a3161;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.contact-form-label {
+    font-weight: bold;
+}
+.contact-btn-primary {
+    background-color: #0033cc;
+    border: none;
+}
+.contact-small-text {
+    font-size: 12px;
+}
+.contact-blue-link {
+    color: #0033cc;
+    text-decoration: none;
+}
