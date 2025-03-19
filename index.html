@@ -89,6 +89,36 @@
             font-weight: bold;
             text-transform: uppercase;
         }
+
+        .dark-section {
+            background-color: #f0f0f0;
+            color: black;
+            padding: 60px 0;
+            margin-bottom: 60px;
+            height: 300px;
+            display: flex;
+            align-items: left;
+        }
+        .dark-section h2 {
+            /* font-family: 'Playfair Display', serif; */
+            font-size: 2.2rem;
+            line-height: 1.3;
+            margin-bottom: 30px;
+        }
+        .dark-section h5 {
+            /* font-family: 'Source Sans Pro', sans-serif; */
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        .dark-section ul {
+            padding-left: 20px;
+        }
+        .dark-section li {
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+            line-height: 1.4;
+        }
     </style>
 </head>
 <body>
@@ -98,7 +128,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand" href="#">
-                <img src="https://placehold.co/150x40/ffffff/000000?text=Gartner+Cloud" alt="Cloud by McKinsey logo" height="40">
+                <img src="https://placehold.co/150x40/ffffff/000000?text=Gartner" alt="Gartner logo" height="40">
             </a>
             <div class="ms-3 small text-muted d-none d-lg-block">Gartner Cloud</div>
             
@@ -111,10 +141,7 @@
                         <a class="nav-link" href="#">Insights</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Our People</a>
+                        <a class="nav-link" href="https://www.gartner.com/en/conferences/emea/infrastructure-operations-cloud-uk" target="_blank">Events</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact Us</a>
@@ -123,12 +150,7 @@
             </div>
             
             <div class="d-flex align-items-center">
-                <a href="#" class="sign-in me-3">Sign In</a>
-                <span class="text-muted">|</span>
-                <a href="#" class="sign-in ms-3">Subscribe</a>
-                <a href="#" class="ms-3">
-                    <i class="fas fa-search search-icon"></i>
-                </a>
+                <button class="contact-btn">Become a client <i class="far fa-square-caret-right"></i></button>
             </div>
         </div>
     </nav>
@@ -157,37 +179,9 @@
                     </p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="hero"> 
-        <div class="contact-section">
-            <div class="contact-card" style="max-width: 650px; height: 350px;">
-                <div class="contact-card-body">
-                    <h1 class="contact-card-title mb-4">Experience the Power of a Gartner Consulting Clinic</h1>
-                    <p class="mb-4">Book a 45-minute private meeting with seasoned Consultants, 100% customized to you and your Mission-Critical priorities.</p>
-                    <p class="mb-4">500+ delivered at Gartner;s IT Symposium/XPO every year.</p>
-                    <div class="row">
-                        <div class="col-md-9">
-                            <input type="email" class="form-control" id="workEmail" placeholder="Work Email">
-                        </div>
-                        <div class="col-md-2">
-                            <button class="btn contact-btn">Continue</button>
-                        </div>
-                    </div>
-                    <p class="mt-2 contact-small-text">By clicking the "Continue" button, you are agreeing to the <a href="#" class="blue-link">Gartner Terms of Use</a> and <a href="#" class="blue-link">Privacy Policy</a>.</p>
-                </div>
-            </div>
-            <div class="vertical-line"></div>
-            <div class="contact-card" style="max-width: 650px; height: 350px;">
-                <div class="contact-card-body">
-                    <h1 class="contact-card-title mb-4">Gartner Consulting extends the value of Gartner research from insight to action</h1>
-                    <p class="mb-4">Only Gartner Consulting is fully integrated with our research, experts, tools and conferences to take industry-leading insight and turn it into customized action plans.</p>
-                    <p class="mb-4">Our recommendations are free from the influence of IT vendors and integrators, allowing you to decide confidently — even under the most intense scrutiny.</p>
-                    <div class="text-center">
-                        <button class="contact-btn"><i class="far fa-envelope"></i> Contact Us</button>
-                    </div>                    
-                    <p class="mt-2 contact-small-text">By clicking the "Continue" button, you are agreeing to the <a href="#" class="blue-link">Gartner Terms of Use</a> and <a href="#" class="blue-link">Privacy Policy</a>.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-4 text-center">
+                    <button class="contact-btn"><i class="far fa-envelope"></i> Contact Us</button>
                 </div>
             </div>
         </div>
@@ -211,7 +205,7 @@
                 <div class="row g-0">
                     <div class="col-md-4">
                         <div class="card-overlay">
-                            <a href="https://www.gartner.com/en/infrastructure-and-it-operations-leaders/insights/build-a-future-fit-it-infrastructure-organization">
+                            <a href="https://www.gartner.com/en/infrastructure-and-it-operations-leaders/insights/build-a-future-fit-it-infrastructure-organization" target="_blank">
                                 <div class="card-overlay">
                                     <img src="./assets/insights/network.webp" alt="Blue digital network visualization with connection points and lines representing cloud migration">
                                     <div class="card-text">
@@ -223,7 +217,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card-overlay">
-                            <a href="https://www.gartner.com/en/webinar/566448/1276680">
+                            <a href="https://www.gartner.com/en/webinar/566448/1276680" target="_blank">
                                 <div class="card-overlay">
                                     <img src="./assets/insights/walkway.jpg" alt="The Future of Cloud 2028: From Technology to Business Necessity">
                                     <div class="card-text">
@@ -235,7 +229,7 @@
                     </div> 
                     <div class="col-md-4">
                         <div class="card-overlay">
-                            <a href="https://www.gartner.com/en/infrastructure-and-it-operations-leaders/insights/manage-and-optimize-a-cloud-environment">
+                            <a href="https://www.gartner.com/en/infrastructure-and-it-operations-leaders/insights/manage-and-optimize-a-cloud-environment" target="_blank">
                                 <div class="card-overlay">
                                     <img src="./assets/insights/roadmap.jpg" alt="Blurred lights at night representing a utilities control center with bokeh effect">
                                     <div class="card-text">
@@ -250,7 +244,7 @@
                 <div class="row g-0">
                     <div class="col-md-4">
                         <div class="card-overlay">
-                            <a href="https://www.gartner.com/en/information-technology/customer-success-stories/delivering-the-next-generation-of-healthcare-through-digital-initiatives">
+                            <a href="https://www.gartner.com/en/information-technology/customer-success-stories/delivering-the-next-generation-of-healthcare-through-digital-initiatives" target="_blank">
                                 <img src="./assets/insights/healthcare.jpg" alt="Blurred lights at night representing a utilities control center with bokeh effect">
                                 <div class="card-text">
                                     Delivering the next generation of healthcare through digital initiatives
@@ -260,10 +254,10 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card-overlay">
-                            <a href="./weber_state_university.html">
+                            <a href="./weber_state_university.html" target="_blank">
                                 <img src="./assets/insights/defense.jpg" alt="Abstract blue and pink gradient representing pharmaceutical laboratory environment">
                                 <div class="card-text">
-                                    Digitizing the campus environment by optimising the cloud migration journey
+                                    Digitising the campus environment by optimising the cloud migration journey
                                 </div>
                             </a>
                         </div>
@@ -317,7 +311,7 @@
                     </div>
                     <div class="col-md-7">
                         <p class="blog-tag mb-1">Insights</p>
-                        <a href="https://www.gartner.com/en/articles/hybrid-cloud">
+                        <a href="https://www.gartner.com/en/articles/hybrid-cloud" target="_blank">
                             <h3 class="featured-title mb-2">Hybrid Cloud: Data Security Management for Government Agencies <i class="fas fa-arrow-right"></i></h3>
                         </a>
                         <p class="blog-date">December 16, 2024 - Cloud has become an object of executive aspiration; your mission is to introduce a dose of reality. We introduce a roadmap for delivering hybrid and cloud solutions that enchance sovereignty over data, technology and operations</p>
@@ -333,7 +327,7 @@
                             <img src="./assets/blogs/hard_work.jpg" class="card-img-top" alt="Cloud with digital data visualization">
                             <div class="card-body px-0">
                                 <p class="blog-tag mb-1">Research</p>
-                                <a href="https://www.gartner.com/en/infrastructure-and-it-operations-leaders/insights/manage-and-optimize-a-cloud-environment">
+                                <a href="https://www.gartner.com/en/infrastructure-and-it-operations-leaders/insights/manage-and-optimize-a-cloud-environment" target="_blank">
                                     <h5 class="blog-title">Cloud Migration Made Easy: Your Complete Guide <i class="fas fa-arrow-right"></i></h5>
                                 </a>
                                 <p class="blog-date">Cloud migration has become a pivotal strategy for IT Leaders aiming to enhance their digital infrastructure and drive business innovation. As businesses increasingly transition their operations to the cloud...</p>
@@ -347,7 +341,7 @@
                             <img src="./assets/blogs/generative_ai.webp" class="card-img-top" alt="Blue digital network lines representing cloud computing">
                             <div class="card-body px-0">
                                 <p class="blog-tag mb-1">Podcast</p>
-                                <a href="This guide can help empower I&O executives to retain talent and cultivate critical skills to support business objectives and improve efficiency.">
+                                <a href="https://www.gartner.com/en/documents/4529199" target="_blank">
                                     <h5 class="blog-title">It's more than money: How to grow and retain your top talent <i class="fas fa-arrow-right"></i></h5>
                                 </a>
                                 <p class="blog-date">This guide can help empower IT executives to retain talent and cultivate critical skills to support business objectives and improve efficiency.</p>
@@ -361,7 +355,7 @@
                             <img src="./assets/blogs/cloud_strategy.png" class="card-img-top" alt="Digital network sphere representing Middle East cloud infrastructure">
                             <div class="card-body px-0">
                                 <p class="blog-tag mb-1">Article</p>
-                                <a href="https://www.gartner.com/en/infrastructure-and-it-operations-leaders/topics/cloud-strategy">
+                                <a href="https://www.gartner.com/en/infrastructure-and-it-operations-leaders/topics/cloud-strategy" target="_blank">
                                     <h5 class="blog-title">Craft a Cloud Strategy to Optimize Value  for Application Migration<i class="fas fa-arrow-right"></i></h5>
                                 </a>
                                 <p class="blog-date">Maximize the benefits of the cloud with a strategy that prioritizes on value from cloud adoption, cloud nativeness and critical dependencies</p>
@@ -375,6 +369,159 @@
                 </div>
                 
 
+            </div>
+        </div>
+    </section>
+
+    <section class="dark-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 text-left">
+                    <div class="col-md-8">
+                        <h2>Experience the Power of a Gartner Consulting Clinic</h2>
+                        <p class="mb-4">Book a 45-minute private meeting with seasoned consultants.<br>100% customized to you and your mission-critical priorities.</p>
+                    </div>
+                </div>
+                <div class="col-md-3" style="display: flex; align-items: center;">
+                    <button class="btn contact-btn" style="width: 600px !important;"><h3>Book a Meeting</h3></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="hero"> 
+        <div class="row">
+            <div class="contact-section">
+                <div class="contact-card" style="max-width: 650px; height: 350px;">
+                    <br>
+                    <div class="contact-card-body">
+                        <h1 class="contact-card-title mb-4">Experience the Power of a Gartner Consulting Clinic</h1>
+                        <p class="mb-4">Book a 45-minute private meeting with seasoned Consultants, 100% customized to you and your Mission-Critical priorities.</p>
+                        <p class="mb-4">500+ delivered at Gartner;s IT Symposium/XPO every year.</p>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <input type="email" class="form-control" id="workEmail" placeholder="Work Email">
+                            </div>
+                            <div class="col-md-2">
+                                <button class="btn contact-btn">Continue</button>
+                            </div>
+                        </div>
+                        <p class="mt-2 contact-small-text">By clicking the "Continue" button, you are agreeing to the <a href="#" class="blue-link">Gartner Terms of Use</a> and <a href="#" class="blue-link">Privacy Policy</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="top-border"></div>
+                    <h1 class="contact-title">Contact Gartner</h1>
+                </div>
+            </div>
+    
+            <div class="row mb-5">
+                <div class="col-md-6">
+                    <div class="d-flex mb-4">
+                        <div class="icon-container me-3">
+                            <i class="far fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h2 class="section-title">Gartner Consulting</h2>
+                            <a href="mailto:consultingsalesandmarketing@gartner.com" class="contact-link">consultingsalesandmarketing@gartner.com</a>
+                        </div>
+                    </div>
+    
+                    <div class="d-flex">
+                        <div class="icon-container me-3">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </div>
+                        <div>
+                            <h2 class="section-title">Gartner Consulting Contracts</h2>
+                            <a href="#" class="contact-link">State and Local Government Consulting Contracts</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <div class="d-flex">
+                        <div class="icon-container me-3">
+                            <i class="far fa-circle-question"></i>
+                        </div>
+                        <div>
+                            <h2 class="footer-section-title">Additional Resources</h2>
+                            <a href="#" class="contact-link d-block mb-1">General Contacts</a>
+                            <a href="#" class="contact-link d-block mb-1">Worldwide Offices</a>
+                            <a href="#" class="contact-link d-block">Become a Gartner Client</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="footer-bg footer-nav">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-12 mb-3">
+                        <h2 style="color: #003366; font-weight: bold; font-size: 24px;">Gartner</h2>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="footer-title">About Gartner</h3>
+                        <p class="footer-link">Who We Are</p>
+                        <p class="footer-link">About Us</p>
+                        <p class="footer-link">Corporate Responsibility</p>
+                        <p class="footer-link">Investor Relations</p>
+                        <p class="footer-link">Newsroom</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="footer-title">What We Do</h3>
+                        <p class="footer-link">Conferences</p>
+                        <p class="footer-link">Research & Advisory</p>
+                        <p class="footer-link">Consulting</p>
+                        <p class="footer-link">Digital Markets</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="footer-title">Get in Touch</h3>
+                        <p class="footer-link">Contact</p>
+                        <p class="footer-link">Contact Us</p>
+                        <p class="footer-link">Become a Client</p>
+                        <p class="footer-link">Office Locations</p>
+                        <p class="footer-link">Technical Support</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="mb-4">
+                            <h3 class="footer-title">Careers</h3>
+                            <p class="footer-link">Why Gartner</p>  
+                            <p class="footer-link">Search Careers</p>   
+                            <p class="footer-link">Our Culture</p>  
+                            <p class="footer-link">Careers Blo></p> 
+                        </div>
+                        <div>
+                            <h3 class="footer-title">Latest Insights</h3>
+                            <p class="footer-link">Resources</p>
+                            <p class="footer-link">Featured Insights</p>
+                            <p class="footer-link">Webinars</p>
+                            <p class="footer-link">Glossary</p>
+                            <p class="footer-link">Client Stories</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-4">
+                            <a href="#" class="social-icon"><i class="fas fa-circle"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
